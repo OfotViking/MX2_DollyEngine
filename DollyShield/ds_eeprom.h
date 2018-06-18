@@ -26,6 +26,8 @@
 #ifndef DS_EEPROM_H_
 #define DS_EEPROM_H_
 
+#include "Arduino.h"
+
 struct __EECal
 {
   byte EE_check1; // EE version check
